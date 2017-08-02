@@ -33,6 +33,14 @@ header.logo {
   margin-bottom: 60px;
 }
 
+footer {
+  margin-top: 60px;
+}
+
+footer p {
+  font-size: 90%;
+}
+
 @media (max-width: 767px) {
   header.logo h1 {
     font-size: 450%;

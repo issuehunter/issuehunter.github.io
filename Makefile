@@ -1,6 +1,9 @@
-.PHONY: default serve
+.PHONY: default serve install
 
 default: serve
 
-serve: index.html stylesheets/style.css
-	@python -m SimpleHTTPServer 3333
+install:
+	@bundle install
+
+serve:
+	@bundle exec jekyll serve
