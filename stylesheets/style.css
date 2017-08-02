@@ -1,51 +1,55 @@
 @font-face {
   font-family: 'StandardCT-Bold';
-  src: url('http://newswordy.com/assets/webfonts/eot/style_156823.eot');
-  src: url('http://newswordy.com/assets/webfonts/eot/style_156823.eot?#iefix') format('embedded-opentype'),
-       url('http://newswordy.com/assets/webfonts/woff/style_156823.woff') format('woff'),
-       url('http://newswordy.com/assets/webfonts/ttf/style_156823.ttf') format('truetype'),
-       url('http://newswordy.com/assets/webfonts/svg/style_156823.svg#StandardCT-Bold') format('svg'); 
+  src: url('/assets/standardct-bold.eot');
+  src: url('/assets/standardct-bold.eot?#iefix') format('embedded-opentype'),
+    url('/assets/standardct-bold.woff') format('woff'),
+    url('/assets/standardct-bold.ttf') format('truetype'),
+    url('/assets/standardct-bold.svg#StandardCT-Bold') format('svg');
 }
 
-body {
-  font-family:'Helvetica Neue',Helvetica,Arial,sans-serf;
-  font-weight:normal;
-  font-size:16px;
-  line-height:1.4;
-  color: #222;
+.markdown-body {
+	box-sizing: border-box;
+	min-width: 200px;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 45px;
 }
-h1 {
-  font-family:'StandardCT-Bold';
-  font-weight:normal !important;
-  margin-bottom: 50px;
+
+header.logo h1 {
+  font-family: 'StandardCT-Bold';
+  font-weight: normal;
   font-size: 775%;
   letter-spacing: -5px;
   line-height: 88%;
-  color: #333;
-}
-a {
-  text-decoration: none;
-}
-a, a:hover, a:active, a:visited {
-  color: #33CCFF;
-}
-p {
-  font-size: 120%;
-  line-height: 22px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-div#container {
-  margin-left: 40px;
-  margin-top: 20px;
-  padding: 20px;
-  width: 800px;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
-div#main {
-  margin-top: 20px;
-  margin-bottom: 20px;
+header.logo h2 {
+  border-bottom: none;
 }
+
+header.logo {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  header.logo h1 {
+    font-size: 450%;
+    letter-spacing: -3px;
+  }
+
+	.markdown-body {
+		padding: 15px;
+	}
+}
+
 /* Layout */
-.blue { color: #33CCFF;}
-.red { color: #FF4400;}
+
+.blue {
+  color: #33CCFF;
+}
+
+.red {
+  color: #FF4400;
+}
