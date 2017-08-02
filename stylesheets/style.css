@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'StandardCT-Bold';
-  src: url('/assets/standardct-bold.eot');
-  src: url('/assets/standardct-bold.eot?#iefix') format('embedded-opentype'),
-    url('/assets/standardct-bold.woff') format('woff'),
-    url('/assets/standardct-bold.ttf') format('truetype'),
-    url('/assets/standardct-bold.svg#StandardCT-Bold') format('svg');
+  src: url('https://s3.amazonaws.com/issuehunter/fonts/standardct-bold.eot');
+  src: url('https://s3.amazonaws.com/issuehunter/fonts/standardct-bold.eot?#iefix') format('embedded-opentype'),
+    url('https://s3.amazonaws.com/issuehunter/fonts/standardct-bold.woff') format('woff'),
+    url('https://s3.amazonaws.com/issuehunter/fonts/standardct-bold.ttf') format('truetype'),
+    url('https://s3.amazonaws.com/issuehunter/fonts/standardct-bold.svg#StandardCT-Bold') format('svg');
 }
 
 .markdown-body {
