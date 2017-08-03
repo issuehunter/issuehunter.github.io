@@ -25,6 +25,10 @@ header.logo h1 {
   padding-bottom: 0;
 }
 
+header.logo h1 span {
+  display: inline-block;
+}
+
 header.logo h2 {
   border-bottom: none;
 }
