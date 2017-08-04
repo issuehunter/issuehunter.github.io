@@ -14,7 +14,7 @@ transparent and deterministic.
 It makes it easier for supporters to funds projects they love and for Open
 Source contributors to collect rewards for their work.
 
-The dapp is composed by three main elements:
+The decentralized app (dapp) is composed by three main elements:
 
 * a set of smart contracts deployed on the Ethereum blockchain
 * a service that helps verifying software patches submitted
@@ -46,13 +46,19 @@ development of a project in specific areas for funders.
 
 ### Step 1: fund an issue
 
-Contributors add funds to any unresolved issue on GitHub. The act of adding
-funds to an open issue triggers a smart contract function call and a transaction
-of Ethereum between the funder and the contract that is controlling the issue's
-funds.
+Supporters can add funds to any unresolved issue on GitHub.
 
-You can add funds to any issue on GitHub. If the issue was already funded by
-other contributors, your funds will add up to the total funds of the issue.
+Adding funds to an issue triggers:
+
+* a smart contract function call, that is included in a transaction on the
+  blockchain
+* a transfer of funds between the sender and the contract that is controlling
+  issue's funds.
+
+If an issue funding process was already started by another supporter, new funds
+will add up to the total value of the existing contract, otherwise a fresh new
+contract will be created to collect funds to promote and sponsor a resolution
+for the issue.
 
 ### Step 2: submit a resolution
 
