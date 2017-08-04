@@ -14,12 +14,17 @@ transparent and deterministic.
 It makes it easier for supporters to funds projects they love and for Open
 Source contributors to collect rewards for their work.
 
-The decentralized app (dapp) is composed by three main elements:
+The decentralized app (dapp) is composed by two main elements:
 
 * a set of smart contracts deployed on the Ethereum blockchain
 * a service that helps verifying software patches submitted
+
+The dapp will be enhanced by:
+
 * a web based directory to discover funded issues that are still waiting to be
   resolved
+* a service that notifies issues watchers about available rewards for
+  contributors
 
 ## A new way of contributing to Open Source
 
