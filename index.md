@@ -5,8 +5,14 @@ title: issuehunter
 
 # Introduction
 
-Issuehunter is a decentralized application that takes advantage of the Ethereum
-blockchain to make it easier to fund Open Source Software development.
+Issuehunter is a decentralized application that enables Open Source crowdfunding
+on the Ethereum blockchain.
+
+It is a new way to improve Open Source development lifecycle by making it
+transparent and deterministic.
+
+It makes it easier for supporters to funds projects they love and for Open
+Source contributors to collect rewards for their work.
 
 The dapp is composed by three main elements:
 
