@@ -11,7 +11,7 @@ on the Ethereum blockchain.
 It is a new way to improve Open Source development lifecycle by making it
 transparent and deterministic.
 
-It makes it easier for supporters to funds projects they love and for Open
+It makes it easier for supporters to fund projects they love and for Open
 Source contributors to collect rewards for their work.
 
 The decentralized app (dapp) is composed by two main elements:
